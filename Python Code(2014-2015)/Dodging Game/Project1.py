@@ -1,60 +1,64 @@
 #Pair Programming Done By Kevin Flynn and Andrew Callahan
-
+#October 2014
 from pygame.locals import *
-
 import random
 import os, pygame.mixer, pygame.time
 
+#constant strings
 GAME_TITLE = "Fun Game"
 gameOver = "Game Over"
 final = "Final score: "
-play = "To Play again press Y, to quit press q."
+play = "To Play again press y, to quit press q."
 bounds = "Out of bounds"
 qPressed = "The 'q' key is pressed."
 currentscore = "Your current score is "
 fun = "Hold down s for fun!"
+
+#window size
 DISPLAY_SIZE = (600,600)
 screen_width = 600
 screen_height = 600
 DESIRED_FPS = 30
 pygame.init()
-def funColors(currentcolor):
+
+def funColors(currentcolor): #function to change colors ingame
     currentcolor = (random.randint(0,255),random.randint(0,255),random.randint(0,255))
     return currentcolor
-def playAgain(score):
-    pygame.quit()
+def playAgain(score): #function to replay game
+    pygame.quit() #ends current game
     print gameOver
     print final,score
     print play
-    while True:
+    while True: #so player has to input something
         choice = raw_input("> ")
-        if choice == 'y':
+        if choice == 'y': #checks if player wants to play again
             pygame.init()
-            main()
+            main() #reruns game
             break
         elif choice == 'q':
-            exit()
+            exit()#quits game
             break
-def Score(score):
+def Score(score): #function to keep track of players score
     score += 1
     return score
-def checkBounds(box_x,box_y,score, box_width, box_height):
+def checkBounds(box_x,box_y,score, box_width, box_height): #function to continuously check if player is in bounds. Restarts if false
     if box_x > screen_width - box_width or box_x < 0:
         print bounds
         playAgain(score)
     if box_y > screen_height - 50 - box_height or box_y < screen_height/2:
         print bounds
         playAgain(score)
-def currentScore(screen,score):
+def currentScore(screen,score): #renders score onto the screen
     font = pygame.font.Font(None, 36)
     text = font.render(currentscore+str(score), 1, (10, 10, 10))
     screen.blit(text,[5,30])
 def main():
+    #sets constant colors
     BLACK = (0, 0, 0)
     WHITE = (255, 255, 255)
     GREEN = (0, 255, 0)
     RED = (255, 0, 0)
-
+    #creates display screen
     screen = pygame.display.set_mode(DISPLAY_SIZE)
     pygame.display.set_caption(GAME_TITLE)
     

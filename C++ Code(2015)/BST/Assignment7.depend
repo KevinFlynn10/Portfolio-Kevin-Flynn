@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1426450705 source:/home/user/Desktop/Comp Sci/Data Structures/Assignment7/main.cpp
+	<iostream>
+	<json/json.h>
+	<fstream>
+	"MovieTree.h"
+	<string>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<istream>
+
+1426449395 /home/user/Desktop/Comp Sci/Data Structures/Assignment7/MovieTree.h
+	<iostream>
+	<json/json.h>
+	<string.h>
+	<string>
+	<stdio.h>
+	<fstream>
+	"MovieTree.h"
+	<fstream>
+	<istream>
+
+1426450523 source:/home/user/Desktop/Comp Sci/Data Structures/Assignment7/MovieTree.cpp
+	<iostream>
+	<json/json.h>
+	<string.h>
+	<string>
+	<stdio.h>
+	<fstream>
+	"MovieTree.h"
+	<fstream>
+	<istream>
+
+1426461650 source:/home/user/Dropbox/CSCI2270/HomeworkAssignments/Assignment7/main.cpp
+	<iostream>
+	<json/json.h>
+	<fstream>
+	"MovieTree.h"
+	<string>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<istream>
+
+1426449395 /home/user/Dropbox/CSCI2270/HomeworkAssignments/Assignment7/MovieTree.h
+	<iostream>
+	<json/json.h>
+	<string.h>
+	<string>
+	<stdio.h>
+	<fstream>
+	"MovieTree.h"
+	<fstream>
+	<istream>
+
+1426462343 source:/home/user/Dropbox/CSCI2270/HomeworkAssignments/Assignment7/MovieTree.cpp
+	<iostream>
+	<json/json.h>
+	<string.h>
+	<string>
+	<stdio.h>
+	<fstream>
+	"MovieTree.h"
+	<fstream>
+	<istream>
+
