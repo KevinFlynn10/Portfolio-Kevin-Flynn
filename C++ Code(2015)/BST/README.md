@@ -1,5 +1,6 @@
 This program is a variety of functions built into one large movie tree. Included in the main code files(MovieTree.cpp,MovieTree.h,Main.cpp) is:
 -BST:
+
 	Search Node Function 
 
 	Delete Node Function 
@@ -23,5 +24,5 @@ This program is a variety of functions built into one large movie tree. Included
 	Print Node
 
 	Find Node
-	
+
 	and more Misc...
