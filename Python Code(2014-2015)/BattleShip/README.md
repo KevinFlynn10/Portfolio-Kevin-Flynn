@@ -1,0 +1,2 @@
+This program is a simplified one way version of battleship, where the user will select a space on the board to fire and will either hit or miss.
+Can run in either windows or linux terminals if python 2.7 or greater installed in path.

@@ -1,0 +1,2 @@
+This program initially takes in an array and then allows the user to convert to multiple other data structures such as: linked list, binary search tree, hash tables, and vectors.
+Code for the program is spread throughout the three files: main.cpp, convert.h, convert.cpp.

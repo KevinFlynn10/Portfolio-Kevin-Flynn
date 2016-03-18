@@ -1,0 +1,2 @@
+Fun game created to where the user uses the arrow keys to maneuver a block around other falling blocks. A screenshot of the game has been provided.
+Can run in either windows or linux terminals if python 2.7 or greater installed in path.

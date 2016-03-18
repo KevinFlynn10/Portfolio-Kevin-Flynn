@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1430090882 source:/home/user/Desktop/Final/convert.cpp
+	"convert.h"
+	<vector>
+	<iostream>
+	<climits>
+	<queue>
+
+1430090734 /home/user/Desktop/Final/convert.h
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1430090734 source:/home/user/Desktop/Final/Elijah.cpp
+	<iostream>
+	"convert.h"
+
+1430090882 source:/home/user/Dropbox/CSCI2270/HomeworkAssignments/Final/convert.cpp
+	"convert.h"
+	<vector>
+	<iostream>
+	<climits>
+	<queue>
+
+1430090734 /home/user/Dropbox/CSCI2270/HomeworkAssignments/Final/convert.h
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1430091346 source:/home/user/Dropbox/CSCI2270/HomeworkAssignments/Final/Elijah.cpp
+	<iostream>
+	"convert.h"
+
